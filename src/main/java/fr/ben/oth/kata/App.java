@@ -25,7 +25,7 @@ public class App
             System.out.println(e.getMessage());
         }finally {
             System.out.println(client1.showHistory(1));
-            System.out.println("\n" + client2.showHistory(1));
+            System.out.println("\n" + client2.showHistory(2));
 
         }
 
